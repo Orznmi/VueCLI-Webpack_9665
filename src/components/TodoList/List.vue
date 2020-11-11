@@ -4,10 +4,7 @@
 
     <v-card>
         <v-card-title>
-            <v-text-field 
-            v-model="search" 
-            append-icon="mdi-magnify" 
-            label="Search" single-line hide-details>
+            <v-text-field v-model="search" append-icon="mdi-magnify" label="Search" single-line hide-details>
             </v-text-field>
             <v-spacer></v-spacer>
             <v-btn color="success" dark @click="dialog =true"> Tambah </v-btn>
@@ -53,7 +50,7 @@ export default {
     data() {
         return {
             search: null,
-            dialog: "false",
+            dialog: false,
             headers: [{
                     text: "Task",
                     align: "start",
