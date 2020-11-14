@@ -34,6 +34,12 @@ const router = new VueRouter({
                     path : "/ugd",
                     name : "Unguided",
                     component : importComponent('UGD/UGD'),
+                },
+                //tugas
+                {
+                    path:"/tugas",
+                    name:"Tugas",
+                    component : importComponent('Tugas/Tugas'),
                 }
             ]
         },
